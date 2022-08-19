@@ -5,7 +5,7 @@ const tokens = (n) => {
     return ethers.utils.parseUnits(n.toString(), 'ether')
 }
 
-describe('Flashloan', () => {
+describe('FlashLoan', () => {
     let token, flashLoan, flashLoanReceiver
     let deployer, user1
 
