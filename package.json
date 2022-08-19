@@ -1,15 +1,18 @@
 {
-  "name": "solidity_dappuni_tutorial",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
-    "hardhat": "^2.10.2"
-  }
+    "name": "solidity_dappuni_tutorial",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "asadsexyimp@gmail.com",
+    "license": "ISC",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+        "hardhat": "^2.10.1"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.7.2"
+    }
 }
